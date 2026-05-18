@@ -3,10 +3,11 @@ import { readFileSync, existsSync } from 'node:fs'
 import { extname, join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 const root = dirname(dirname(fileURLToPath(import.meta.url)))
-const types = { '.html': 'text/html', '.css': 'text/css', '.js': 'application/javascript', '.tsx': 'application/javascript', '.ts': 'application/javascript' }
+const types = { '.html': 'text/html', '.css': 'text/css', '.js': 'application/javascript', '.json': 'application/json' }
 const server = http.createServer((req, res) => {
-  let path = req.url === '/' ? '/index.html' : req.url.split('?')[0]
-  let file = join(root, path)
+  const urlPath = req.url === '/' ? '/index.html' : req.url.split('?')[0]
+  const mappedPath = urlPath === '/app.js' ? '/src/runtime-dashboard.js' : urlPath
+  let file = join(root, mappedPath)
   if (!existsSync(file)) file = join(root, 'index.html')
   res.writeHead(200, { 'Content-Type': types[extname(file)] || 'text/plain' })
   res.end(readFileSync(file))

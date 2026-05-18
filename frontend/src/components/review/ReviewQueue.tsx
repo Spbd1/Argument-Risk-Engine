@@ -1,2 +1,8 @@
-import { Card } from '../shared/Card'
-export function ReviewQueue() { return <Card><h2>ReviewQueue</h2><p className="muted">MVP placeholder wired for local file-backed workflows.</p></Card> }
+import type { ReviewRecord } from '../../api/types'
+import { EmptyState } from '../shared/EmptyState'
+import { ReviewItem } from './ReviewItem'
+
+export function ReviewQueue({ records, onSaved }: { records: ReviewRecord[]; onSaved: () => void }) {
+  if (!records.length) return <EmptyState title="No prior analyses" message="Run an analysis first; recent outputs are saved locally for review and feedback submission." />
+  return <div className="review-list">{records.map(record => <ReviewItem key={record.id} record={record} onSaved={onSaved} />)}</div>
+}
