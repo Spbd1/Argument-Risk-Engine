@@ -19,7 +19,14 @@
       ],
       "mitigation": "Ask for scope, counterexamples, and supporting evidence.",
       "active": true,
-      "metadata": {}
+      "metadata": {},
+      "negative_examples": [
+        "Every backup completed successfully according to the job log."
+      ],
+      "minimum_evidence_requirement": "Evidence must show a broad quantifier applied to an unsupported group, behavior, or conclusion, not a bounded or sourced observation.",
+      "common_false_positives": [
+        "Bounded inventory, log, policy, or technical statements using absolute words literally."
+      ]
     },
     {
       "id": "unsupported_causal_claim",
@@ -37,7 +44,14 @@
       ],
       "mitigation": "Request causal evidence and consider alternative explanations.",
       "active": true,
-      "metadata": {}
+      "metadata": {},
+      "negative_examples": [
+        "The incident report names three causes and asks for more evidence."
+      ],
+      "minimum_evidence_requirement": "Evidence must include causal wording presented as a conclusion without cited support or alternative explanations.",
+      "common_false_positives": [
+        "Cautious causal hypotheses, cited incident reports, or requests for additional causal evidence."
+      ]
     },
     {
       "id": "dehumanizing_language",
@@ -55,7 +69,14 @@
       ],
       "mitigation": "Escalate for careful human review and contextual assessment.",
       "active": true,
-      "metadata": {}
+      "metadata": {},
+      "negative_examples": [
+        "The novel describes animals in a literal zoo."
+      ],
+      "minimum_evidence_requirement": "Evidence must show dehumanizing terms applied to a person or group of people.",
+      "common_false_positives": [
+        "Literal references to non-human animals, pests, software parasites, or fictional creatures."
+      ]
     }
   ]
 }

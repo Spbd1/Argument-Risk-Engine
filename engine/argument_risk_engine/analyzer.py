@@ -33,10 +33,18 @@ def analyze_text(
 ) -> dict[str, Any]:
     taxonomy_pack = pack or default_taxonomy_pack()
     normalized_text = text or ""
+    requested_mode = mode or DEFAULT_MODE
+    requested_provider_id = model_provider_id or DEFAULT_MODEL_PROVIDER_ID
+    warnings: list[str] = []
+    if requested_mode != DEFAULT_MODE or requested_provider_id != DEFAULT_MODEL_PROVIDER_ID:
+        warnings.append(
+            "LLM-backed analysis is not enabled in this release; /analyze uses deterministic_baseline only."
+        )
+    mode = DEFAULT_MODE
+    model_provider_id = DEFAULT_MODEL_PROVIDER_ID
     claims = extract_claims(normalized_text)
     claims_out: list[dict[str, Any]] = []
     all_scores: list[float] = []
-    warnings: list[str] = []
     any_review = False
 
     for index, claim in enumerate(claims, start=1):
@@ -122,7 +130,7 @@ def analyze_text(
         "model_provider_id": model_provider_id,
         "model_name": DEFAULT_MODEL_NAME,
         "llm_used": False,
-        "deterministic_fallback_used": False if mode == DEFAULT_MODE else allow_deterministic_fallback,
+        "deterministic_fallback_used": False,
         "claims": claims_out,
         "overall_risk_score": overall,
         "risk_level": risk_level(overall),

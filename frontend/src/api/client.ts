@@ -18,7 +18,7 @@ import type {
   TaxonomyValidationResult,
 } from './types'
 
-export const API_BASE = (import.meta.env.VITE_API_BASE ?? 'http://localhost:8000/api').replace(/\/$/, '')
+export const API_BASE = (import.meta.env.VITE_API_BASE ?? '/api').replace(/\/$/, '')
 const REVIEW_KEY = 'are.review.records'
 const REPORT_KEY = 'are.generated.reports'
 
