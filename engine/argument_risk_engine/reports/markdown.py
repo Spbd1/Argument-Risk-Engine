@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from typing import Any
 
+from argument_risk_engine.reports.json_export import LIMITATIONS_NOTE
+
 
 def render_markdown_report(result: dict[str, Any]) -> str:
     claims = result.get("claims", []) or []
@@ -13,7 +15,7 @@ def render_markdown_report(result: dict[str, Any]) -> str:
         f"Overall risk score: **{result.get('overall_risk_score', 0)}**",
         f"Risk level: **{result.get('risk_level', 'unknown')}**",
         "",
-        "> Metrics and reports are review aids only and do not claim scientific validation.",
+        f"> {LIMITATIONS_NOTE}",
         "",
         "## Summary",
         "",

@@ -22,6 +22,14 @@ def _metadata() -> str:
     ])
 
 
+def _entry_points() -> str:
+    return "\n".join([
+        "[console_scripts]",
+        "uvicorn=uvicorn.main:main",
+        "",
+    ])
+
+
 def _wheel() -> str:
     return "\n".join([
         "Wheel-Version: 1.0",
@@ -76,6 +84,7 @@ def _write_wheel(out_dir: Path, editable: bool) -> str:
         files: dict[str, bytes] = {
             f"{DIST}/METADATA": _metadata().encode(),
             f"{DIST}/WHEEL": _wheel().encode(),
+            f"{DIST}/entry_points.txt": _entry_points().encode(),
         }
         if editable:
             files["argument_risk_engine_editable.pth"] = f"{ROOT}\n{ROOT / 'engine'}\n".encode()
