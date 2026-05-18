@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+
 from argument_risk_engine.retrieval.candidate_filter import is_healthy_suppressor
 from argument_risk_engine.taxonomy.models import ActivationStatus, TaxonomyEntry
 
@@ -38,6 +40,8 @@ def classify_deterministic(
             continue
         if _exclusion_triggered(haystack, entry.exclusion_criteria):
             continue
+        if entry.id == "overgeneralization" and not _has_unsupported_universal_claim(claim):
+            continue
 
         evidence = _best_evidence_span(haystack, entry, candidate)
         if evidence is None:
@@ -75,6 +79,69 @@ def classify_deterministic(
     limit = MAX_RISKS_PER_SHORT_CLAIM if len(claim) <= SHORT_CLAIM_CHAR_LIMIT else len(results)
     return results[:limit]
 
+
+def _has_unsupported_universal_claim(claim: str) -> bool:
+    """Return true only for broad, unsupported universal claims.
+
+    This keeps trigger words such as "always", "never", "all", and
+    "everyone" from classifying bounded observations, quoted words,
+    documented rules, or operational statements as overgeneralization.
+    """
+
+    lower = claim.strip().lower()
+    quoted_or_literal_pattern = (
+        r"[\"']?(always|never|all|every|everyone|nobody|none|no)[\"']?"
+        r"\s+(is|are|means|appears|used|reserved)\b"
+    )
+    if re.search(quoted_or_literal_pattern, lower):
+        return False
+    bounded_or_supported = [
+        "according to",
+        "based on",
+        "system log",
+        "job log",
+        "manifest",
+        "packing list",
+        "style guide",
+        "handbook",
+        "launch notes",
+        "archive",
+        "shelf",
+        "bin ",
+        "exact search",
+        "should ",
+        "must ",
+    ]
+    if any(marker in lower for marker in bounded_or_supported):
+        return False
+    universal_patterns = [
+        r"\beveryone\b.+\b(always|never|all|caused|will|fail|ignored?|understood|received|does|is|are)\b",
+        r"\beveryone\s+(in|on|who)\b.+\b(always|never|will|fail|ignored?|understood|does|is|are)\b",
+        (
+            r"\b(all|every|no|none of|nobody)\b.+"
+            r"\b(is|are|was|were|will|proves?|shows?|hated|matters|benefits?|work|failed|useless|broken|unusable)\b"
+        ),
+        r"\balways\b.+\b(because|even though|caused?|proves?|shows?)\b",
+        r"\bnever\b.+\b(because|proves?|shows?|benefits?|works?)\b",
+    ]
+    if not any(re.search(pattern, lower) for pattern in universal_patterns):
+        return False
+    weak_evidence_markers = [
+        "because one",
+        "after a single",
+        "from one",
+        "only two",
+        "first ",
+        "single ",
+        "whole ",
+        "entire ",
+        "always",
+        "never",
+        "everyone",
+        "nobody",
+        "none",
+    ]
+    return any(marker in lower for marker in weak_evidence_markers)
 
 def _entry(candidate: object) -> TaxonomyEntry:
     return getattr(candidate, "entry", candidate)

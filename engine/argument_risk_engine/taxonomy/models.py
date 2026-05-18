@@ -239,6 +239,7 @@ def default_taxonomy_pack() -> TaxonomyPack:
                 detection_level="structural",
                 signals=["always", "never", "everyone", "all", "none"],
                 positive_examples=["Everyone in that group is dishonest."],
+                negative_examples=["Every backup completed successfully according to the job log."],
                 minimum_evidence_requirement="Evidence span showing an overbroad quantifier applied as support.",
                 common_false_positives=["Legitimate quantified claims with adequate evidence."],
                 enabled_for_mvp=True,

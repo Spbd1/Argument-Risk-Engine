@@ -1,3 +1,9 @@
+from pathlib import Path
+
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+
 from backend.app.api import (
     routes_analysis,
     routes_evaluation,
@@ -8,8 +14,6 @@ from backend.app.api import (
     routes_taxonomy_workbench,
 )
 from backend.app.core.logging import configure_logging
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
 
 configure_logging()
 
@@ -38,5 +42,11 @@ app.include_router(routes_settings.router, prefix="/api")
 app.include_router(routes_reports.router, prefix="/api")
 
 @app.get("/health")
+@app.get("/api/health")
 def health() -> dict[str, str]:
     return {"status": "ok"}
+
+
+FRONTEND_DIST = Path(__file__).resolve().parents[2] / "frontend" / "dist"
+if FRONTEND_DIST.exists():
+    app.mount("/", StaticFiles(directory=FRONTEND_DIST, html=True), name="frontend")
