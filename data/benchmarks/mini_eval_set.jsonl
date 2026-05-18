@@ -1,1 +1,2 @@
-{"text":"They are vermin.","expected":["dehumanizing_language"]}
+{"id":"sample_001","text":"They are vermin.","gold_labels":["dehumanizing_language"],"gold_evidence_spans":["vermin"],"difficulty":"easy","notes":"Simple dehumanizing-language smoke test for MVP evaluation."}
+{"id":"sample_002","text":"This proposal has tradeoffs and the evidence is mixed.","gold_labels":[],"gold_evidence_spans":[],"difficulty":"easy","notes":"Neutral reasoning sample used to monitor over-classification."}
