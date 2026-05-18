@@ -1,1 +1,6 @@
-llm_provider: deterministic
+{
+  "llm_provider": "deterministic_baseline",
+  "model": "local-keyword",
+  "temperature": 0.0,
+  "active_model_provider": "deterministic_baseline"
+}

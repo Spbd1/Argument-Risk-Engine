@@ -70,3 +70,22 @@ export type TaxonomyIssue = { code: string; message: string; severity: string; e
 export type TaxonomyQualityReport = { ok: boolean; entry_count: number; active_classification_count: number; error_count: number; warning_count: number; errors: TaxonomyIssue[]; warnings: TaxonomyIssue[] }
 export type TaxonomyPackSummary = { pack: string; entry_count: number; active_count: number; enabled_for_classification_count: number }
 export type TaxonomyValidationResult = { ok: boolean; entry_count: number; active_classification_count: number; errors: TaxonomyIssue[]; warnings: TaxonomyIssue[] }
+
+export type ProviderType = 'deterministic' | 'openai_compatible'
+export type ProviderProfile = {
+  provider_id: string
+  label: string
+  provider_type: ProviderType
+  base_url: string
+  model_name: string
+  api_key_env_var: string
+  timeout_seconds: number
+  max_tokens: number
+  temperature: number
+  supports_json_mode: boolean | string
+  supports_streaming: boolean | string
+  enabled: boolean
+}
+export type ProviderListResponse = { providers: ProviderProfile[] }
+export type ActiveProviderResponse = { provider_id: string; provider: ProviderProfile | null }
+export type ProviderTestResponse = { provider_id: string; status: string; latency_ms: number; warnings: string[]; models: string[]; detail: string }
