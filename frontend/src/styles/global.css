@@ -37,3 +37,8 @@ select { border: 1px solid #c8d2e1; border-radius: 10px; padding: .65rem; font: 
 .issue-list { display: grid; gap: .45rem; padding-left: 1.1rem; }
 .workbench-grid { display: grid; gap: 1rem; }
 @media (max-width: 980px) { .taxonomy-layout { grid-template-columns: 1fr; } .drawer { max-height: none; } }
+.warning { color: #8a4b00; background: #fff7e6; border: 1px solid #ffd58a; border-radius: 10px; padding: .65rem; }
+.settings-page { grid-column: 1 / -1; }
+.provider-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 1rem; }
+.settings-form { display: grid; gap: .75rem; margin-top: .75rem; }
+.provider-test-panel { border-top: 1px solid #edf1f7; margin-top: .75rem; padding-top: .75rem; }

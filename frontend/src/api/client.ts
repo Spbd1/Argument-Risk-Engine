@@ -1,4 +1,4 @@
-import type { AnalysisResponse, TaxonomyCoverage, TaxonomyEntry, TaxonomyImportResult, TaxonomyPackSummary, TaxonomyQualityReport, TaxonomyValidationResult } from './types'
+import type { ActiveProviderResponse, AnalysisResponse, ProviderListResponse, ProviderProfile, ProviderTestResponse, TaxonomyCoverage, TaxonomyEntry, TaxonomyImportResult, TaxonomyPackSummary, TaxonomyQualityReport, TaxonomyValidationResult } from './types'
 
 const API_BASE = import.meta.env.VITE_API_BASE ?? 'http://localhost:8000/api'
 
@@ -76,4 +76,50 @@ export async function updateTaxonomyActivation(riskId: string, activationStatus:
   const payload = await response.json()
   if (payload.detail) throw new Error(payload.detail)
   return payload.entry
+}
+
+
+export async function fetchModelProviders(): Promise<ProviderProfile[]> {
+  const response = await fetch(`${API_BASE}/settings/model-providers`)
+  if (!response.ok) throw new Error('Model providers request failed')
+  const payload: ProviderListResponse = await response.json()
+  return payload.providers
+}
+
+export async function saveModelProvider(profile: ProviderProfile): Promise<ProviderProfile> {
+  const response = await fetch(`${API_BASE}/settings/model-providers/${encodeURIComponent(profile.provider_id)}`, {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(profile),
+  })
+  if (!response.ok) throw new Error('Model provider update failed')
+  const payload = await response.json()
+  if (payload.detail) throw new Error(payload.detail)
+  return payload
+}
+
+export async function fetchActiveModelProvider(): Promise<ActiveProviderResponse> {
+  const response = await fetch(`${API_BASE}/settings/active-model-provider`)
+  if (!response.ok) throw new Error('Active provider request failed')
+  return response.json()
+}
+
+export async function setActiveModelProvider(providerId: string): Promise<ActiveProviderResponse> {
+  const response = await fetch(`${API_BASE}/settings/active-model-provider`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ provider_id: providerId }),
+  })
+  if (!response.ok) throw new Error('Active provider update failed')
+  const payload = await response.json()
+  if (payload.detail) throw new Error(payload.detail)
+  return payload
+}
+
+export async function testModelProvider(providerId: string): Promise<ProviderTestResponse> {
+  const response = await fetch(`${API_BASE}/settings/model-providers/${encodeURIComponent(providerId)}/test`, { method: 'POST' })
+  if (!response.ok) throw new Error('Provider test failed')
+  const payload = await response.json()
+  if (payload.detail) throw new Error(payload.detail)
+  return payload
 }
