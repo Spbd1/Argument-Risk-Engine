@@ -11,6 +11,10 @@ from argument_risk_engine.classification.model_provider import ProviderProfile
 from pydantic import BaseModel
 
 
+class LLMClientError(RuntimeError):
+    """Raised when an optional model provider cannot produce a response."""
+
+
 class ProviderTestResult(BaseModel):
     provider_id: str
     status: str
@@ -24,9 +28,50 @@ class LLMClient:
     def __init__(self, profile: ProviderProfile | None = None):
         self.profile = profile
 
-    def classify(self, prompt: str) -> dict[str, str]:
-        provider_id = self.profile.provider_id if self.profile else "deterministic_baseline"
-        return {"provider": provider_id, "response": "LLM providers are optional; deterministic baseline is available."}
+    def classify(self, prompt: str, *, messages: list[dict[str, str]] | None = None) -> dict[str, Any]:
+        """Run an OpenAI-compatible chat completion and parse its JSON content."""
+
+        content = self.generate(prompt, messages=messages)
+        parsed = json.loads(content)
+        if not isinstance(parsed, dict):
+            raise LLMClientError("LLM JSON response must be an object.")
+        return parsed
+
+    def generate(self, prompt: str, *, messages: list[dict[str, str]] | None = None) -> str:
+        if self.profile is None or self.profile.provider_type == "deterministic":
+            raise LLMClientError("No LLM provider is configured; deterministic baseline is available offline.")
+        if not self.profile.enabled:
+            raise LLMClientError(f"Provider {self.profile.provider_id} is disabled.")
+        if not self.profile.base_url:
+            raise LLMClientError(f"Provider {self.profile.provider_id} has no base_url configured.")
+        if not self.profile.model_name:
+            raise LLMClientError(f"Provider {self.profile.provider_id} has no model_name configured.")
+
+        api_key = os.environ.get(self.profile.api_key_env_var, "") if self.profile.api_key_env_var else ""
+        body: dict[str, Any] = {
+            "model": self.profile.model_name,
+            "messages": messages or [{"role": "user", "content": prompt}],
+            "temperature": self.profile.temperature,
+            "stream": False,
+        }
+        if self.profile.max_tokens:
+            body["max_tokens"] = self.profile.max_tokens
+        if self.profile.supports_json_mode is True:
+            body["response_format"] = {"type": "json_object"}
+
+        status, payload, warning = _request_json(
+            "POST",
+            _join_url(self.profile.base_url, "chat/completions"),
+            api_key,
+            body,
+            self.profile.timeout_seconds,
+        )
+        if status != "ok":
+            raise LLMClientError(warning or "LLM provider request failed.")
+        try:
+            return str(payload["choices"][0]["message"]["content"])
+        except (KeyError, IndexError, TypeError) as exc:
+            raise LLMClientError("LLM provider response did not contain choices[0].message.content.") from exc
 
     def test_provider(self) -> ProviderTestResult:
         if self.profile is None or self.profile.provider_type == "deterministic":
@@ -66,7 +111,7 @@ def _get_models(profile: ProviderProfile, api_key: str) -> tuple[str, str, list[
     status, payload, warning = _request_json("GET", url, api_key, None, profile.timeout_seconds)
     if status != "ok":
         return status, warning, []
-    data = payload.get("data", payload if isinstance(payload, list) else [])
+    data = payload.get("data", payload if isinstance(payload, list) else []) if isinstance(payload, dict | list) else []
     models = [str(item.get("id", item)) for item in data if item]
     return "ok", "", models
 
