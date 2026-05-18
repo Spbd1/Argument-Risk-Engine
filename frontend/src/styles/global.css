@@ -1,0 +1,18 @@
+:root { color: #172033; background: #f6f8fb; font-family: Inter, system-ui, sans-serif; }
+body { margin: 0; }
+.shell { display: flex; min-height: 100vh; }
+.sidebar { background: #101827; color: white; padding: 1.5rem; width: 220px; display: flex; flex-direction: column; gap: .75rem; }
+.sidebar a { color: #dce7ff; text-decoration: none; }
+main { flex: 1; padding: 2rem; }
+.header { margin-bottom: 1.5rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; }
+.card { background: white; border: 1px solid #dfe5ef; border-radius: 14px; padding: 1rem; box-shadow: 0 8px 24px rgba(16, 24, 39, .06); }
+.stack { display: grid; gap: .75rem; }
+textarea, input { border: 1px solid #c8d2e1; border-radius: 10px; padding: .75rem; font: inherit; }
+.button, button { border: 0; border-radius: 10px; padding: .7rem 1rem; background: #2454d6; color: white; cursor: pointer; }
+.badge { background: #ecf1ff; color: #24449a; padding: .2rem .5rem; border-radius: 999px; font-size: .8rem; }
+.claim, .risk-card { border-top: 1px solid #edf1f7; padding-top: .75rem; margin-top: .75rem; }
+.muted { color: #617089; }
+.error { color: #a12222; }
+table { width: 100%; border-collapse: collapse; }
+td { border-bottom: 1px solid #edf1f7; padding: .45rem; }

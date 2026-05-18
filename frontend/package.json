@@ -1,0 +1,13 @@
+{
+  "name": "argument-risk-engine-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev_server.mjs",
+    "build": "node scripts/build_frontend.mjs",
+    "preview": "node scripts/dev_server.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,60 @@
+import argparse
+import subprocess
+import sys
+import time
+import webbrowser
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+VENV_PYTHON = ROOT / ".venv" / ("Scripts/python.exe" if sys.platform == "win32" else "bin/python")
+
+
+def run_checked(command: list[str], cwd: Path = ROOT) -> None:
+    subprocess.check_call(command, cwd=cwd)
+
+
+def ensure_install() -> Path:
+    if not VENV_PYTHON.exists():
+        run_checked([sys.executable, "-m", "venv", str(ROOT / ".venv")])
+    run_checked([str(VENV_PYTHON), "-m", "pip", "install", "-e", ".[dev]"])
+    run_checked(["npm", "install"], cwd=ROOT / "frontend")
+    return VENV_PYTHON
+
+
+def seed(python: Path) -> None:
+    run_checked([str(python), "scripts/seed_demo_data.py"])
+
+
+def run_servers(python: Path, should_open: bool) -> int:
+    backend = subprocess.Popen([str(python), "scripts/run_backend.py"], cwd=ROOT)
+    frontend = subprocess.Popen(["npm", "run", "dev"], cwd=ROOT / "frontend")
+    try:
+        time.sleep(3)
+        if should_open:
+            webbrowser.open("http://localhost:5173")
+        print("Backend: http://localhost:8000")
+        print("Frontend: http://localhost:5173")
+        return frontend.wait()
+    except KeyboardInterrupt:
+        return 0
+    finally:
+        for process in (frontend, backend):
+            if process.poll() is None:
+                process.terminate()
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--install", action="store_true")
+    parser.add_argument("--run", action="store_true")
+    parser.add_argument("--open", action="store_true")
+    args = parser.parse_args()
+    python = ensure_install() if args.install else (VENV_PYTHON if VENV_PYTHON.exists() else Path(sys.executable))
+    seed(python)
+    if args.run:
+        return run_servers(python, args.open)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

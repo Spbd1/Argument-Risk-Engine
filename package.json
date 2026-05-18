@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "install:frontend": "npm --prefix frontend install",
+    "build:frontend": "npm --prefix frontend run build",
+    "dev": "python scripts/dev.py --install --run --open"
+  }
+}
