@@ -1,13 +1,17 @@
 import argparse
+import sys
 from pathlib import Path
 
-from argument_risk_engine.taxonomy.exporter import export_taxonomy_excel
-from argument_risk_engine.taxonomy.loader import load_taxonomy_pack
-
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "engine"))
+sys.path.insert(0, str(ROOT))
+
+from argument_risk_engine.taxonomy.exporter import export_taxonomy_excel
+from argument_risk_engine.taxonomy.pack_manager import load_all_packs
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="Export current taxonomy packs back to an Excel workbook.")
     parser.add_argument("path", nargs="?", default="data/taxonomy/exports/taxonomy.xlsx")
     args = parser.parse_args()
-    out = export_taxonomy_excel(load_taxonomy_pack(ROOT / "data/taxonomy/packs/starter-pack.yaml"), ROOT / args.path)
+    out = export_taxonomy_excel(load_all_packs(ROOT / "data/taxonomy/packs"), ROOT / args.path)
     print(out)
