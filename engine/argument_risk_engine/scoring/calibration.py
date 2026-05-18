@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-
 RISK_LEVEL_THRESHOLDS: tuple[tuple[float, str], ...] = (
     (0.75, "severe"),
     (0.50, "high"),

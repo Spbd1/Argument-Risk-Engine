@@ -9,17 +9,18 @@ from pathlib import Path
 from zipfile import ZipFile
 
 import yaml
-
 from argument_risk_engine.taxonomy.models import (
     AcademicStatus,
     CanonicalCategory,
     TaxonomyEntry,
     TaxonomyPack,
     normalize_id,
-    parse_bool,
     split_list,
 )
-from argument_risk_engine.taxonomy.validator import TaxonomyValidationReport, validate_taxonomy_pack_detailed
+from argument_risk_engine.taxonomy.validator import (
+    TaxonomyValidationReport,
+    validate_taxonomy_pack_detailed,
+)
 
 ROOT = Path(__file__).resolve().parents[3]
 IMPORT_PATH = ROOT / "data/taxonomy/imports/argument_risk_taxonomy_living_workbook_v2_taxonomy_first.xlsx"

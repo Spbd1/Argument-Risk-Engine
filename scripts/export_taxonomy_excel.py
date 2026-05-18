@@ -6,8 +6,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "engine"))
 sys.path.insert(0, str(ROOT))
 
-from argument_risk_engine.taxonomy.exporter import export_taxonomy_excel
-from argument_risk_engine.taxonomy.pack_manager import load_all_packs
+from argument_risk_engine.taxonomy.exporter import export_taxonomy_excel  # noqa: E402
+from argument_risk_engine.taxonomy.pack_manager import load_all_packs  # noqa: E402
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Export current taxonomy packs back to an Excel workbook.")

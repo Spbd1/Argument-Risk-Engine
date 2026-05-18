@@ -1,1 +1,20 @@
-{"text":"Everyone always caused this problem because of that policy."}
+{"id":"demo_001","text":"Everyone on the project always ignores the checklist, even when exceptions are documented.","category":"positive_overgeneralization"}
+{"id":"demo_002","text":"The proposal has tradeoffs, and the available evidence supports only a limited pilot.","category":"neutral"}
+{"id":"demo_003","text":"No team ever benefits from written retrospectives, so we should cancel all of them.","category":"positive_overgeneralization"}
+{"id":"demo_004","text":"The printer always jams on Mondays because the maintenance job runs that morning.","category":"hard_negative_literal_pattern"}
+{"id":"demo_005","text":"Some customers reported delays, but the sample is small and may not represent the whole user base.","category":"healthy_reasoning"}
+{"id":"demo_006","text":"All onboarding sessions are useless because two new hires said one module was confusing.","category":"positive_overgeneralization"}
+{"id":"demo_007","text":"The data is mixed: one metric improved, one declined, and two stayed within the normal range.","category":"neutral"}
+{"id":"demo_008","text":"Nobody reads the documentation, so there is no point improving it.","category":"positive_overgeneralization"}
+{"id":"demo_009","text":"The word never appears in the style guide as an example of an absolute adverb.","category":"hard_negative_metalinguistic"}
+{"id":"demo_010","text":"Every backup completed successfully last night according to the automated job log.","category":"hard_negative_supported_quantifier"}
+{"id":"demo_011","text":"The incident report names three causes and says the team needs more evidence before assigning priority.","category":"healthy_reasoning"}
+{"id":"demo_012","text":"All beta users hated the feature because one interview was negative.","category":"positive_overgeneralization"}
+{"id":"demo_013","text":"The checklist reduced errors in two trials, but the team has not tested it on weekends.","category":"neutral"}
+{"id":"demo_014","text":"None of the training materials work because one slide has an outdated screenshot.","category":"positive_overgeneralization"}
+{"id":"demo_015","text":"Always is a reserved keyword in this toy grammar example.","category":"hard_negative_metalinguistic"}
+{"id":"demo_016","text":"The reviewer noted uncertainty and requested additional examples before approving the claim.","category":"healthy_reasoning"}
+{"id":"demo_017","text":"Every support ticket proves the release failed, even though the dashboard shows most users completed the workflow.","category":"positive_overgeneralization"}
+{"id":"demo_018","text":"The warehouse inventory shows zero units in bin A and twelve units in bin B.","category":"neutral"}
+{"id":"demo_019","text":"Never deploy on Friday is a team rule written in the release handbook.","category":"hard_negative_policy_quote"}
+{"id":"demo_020","text":"The pilot should continue only if the next review confirms the early trend.","category":"healthy_reasoning"}
