@@ -23,8 +23,11 @@ app.add_middleware(
 )
 
 app.include_router(routes_analysis.router)
+app.include_router(routes_taxonomy.router)
+app.include_router(routes_taxonomy_workbench.router)
 app.include_router(routes_review.router)
 app.include_router(routes_evaluation.router)
+app.include_router(routes_settings.router)
 app.include_router(routes_reports.router)
 app.include_router(routes_analysis.router, prefix="/api")
 app.include_router(routes_taxonomy.router, prefix="/api")

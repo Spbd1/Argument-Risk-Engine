@@ -3,6 +3,8 @@ from __future__ import annotations
 from html import escape
 from typing import Any
 
+from argument_risk_engine.reports.json_export import LIMITATIONS_NOTE
+
 
 def render_html_report(result: dict[str, Any]) -> str:
     claims = result.get("claims", []) or []
@@ -16,7 +18,7 @@ def render_html_report(result: dict[str, Any]) -> str:
   <p><strong>Analysis ID:</strong> {escape(str(result.get('analysis_id') or result.get('text_id', 'unknown')))}</p>
   <p><strong>Overall risk score:</strong> {escape(str(result.get('overall_risk_score', 0)))}</p>
   <p><strong>Risk level:</strong> {escape(str(result.get('risk_level', 'unknown')))}</p>
-  <p><em>Metrics and reports are review aids only and do not claim scientific validation.</em></p>
+  <p><em>{escape(LIMITATIONS_NOTE)}</em></p>
   <h2>Summary</h2>
   <ul>
     <li>Claims reviewed: {len(claims)}</li>
