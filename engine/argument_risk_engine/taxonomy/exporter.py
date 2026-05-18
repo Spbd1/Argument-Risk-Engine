@@ -18,7 +18,7 @@ def _append_sheet(workbook: Workbook, title: str, rows: list[list[object]]) -> N
         sheet.title = title
         for row in rows:
             sheet.append(row)
-        setattr(workbook, "_are_extra_sheets", True)
+        workbook._are_extra_sheets = True
         return
     if hasattr(workbook, "create_sheet"):
         sheet = workbook.create_sheet(title=title)

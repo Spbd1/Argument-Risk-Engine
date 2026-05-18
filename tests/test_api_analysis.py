@@ -1,7 +1,6 @@
 from backend.app.main import app
 from fastapi.testclient import TestClient
 
-
 REQUEST = {
     "text": "Everyone always caused this.",
     "mode": "deterministic_baseline",

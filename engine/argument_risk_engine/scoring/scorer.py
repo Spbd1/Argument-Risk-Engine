@@ -3,7 +3,12 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Any
 
-from argument_risk_engine.scoring.calibration import CalibrationProfile, default_calibration, risk_level, severity_weight
+from argument_risk_engine.scoring.calibration import (
+    CalibrationProfile,
+    default_calibration,
+    risk_level,
+    severity_weight,
+)
 
 LEGACY_SEVERITY_WEIGHT = {"low": 1, "medium": 2, "high": 3}
 

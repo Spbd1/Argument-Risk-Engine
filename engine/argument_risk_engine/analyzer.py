@@ -6,7 +6,10 @@ from typing import Any
 from argument_risk_engine.classification.deterministic import classify_deterministic
 from argument_risk_engine.explanation.explainer import explain_risk, false_positive_warning
 from argument_risk_engine.extraction.claim_extractor import Claim, extract_claims
-from argument_risk_engine.retrieval.lexical_retriever import RetrievedTaxonomyEntry, retrieve_candidates
+from argument_risk_engine.retrieval.lexical_retriever import (
+    RetrievedTaxonomyEntry,
+    retrieve_candidates,
+)
 from argument_risk_engine.scoring.calibration import risk_level
 from argument_risk_engine.scoring.scorer import score_classification
 from argument_risk_engine.taxonomy.models import TaxonomyEntry, TaxonomyPack, default_taxonomy_pack

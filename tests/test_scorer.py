@@ -1,5 +1,9 @@
 from argument_risk_engine.scoring.calibration import risk_level
-from argument_risk_engine.scoring.scorer import calculate_risk_score, score_classification, score_risk
+from argument_risk_engine.scoring.scorer import (
+    calculate_risk_score,
+    score_classification,
+    score_risk,
+)
 
 
 def test_weighted_formula_matches_spec():

@@ -12,4 +12,7 @@ const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': types[extname(file)] || 'text/plain' })
   res.end(readFileSync(file))
 })
-server.listen(5173, '127.0.0.1', () => console.log('Frontend: http://localhost:5173'))
+const hostArgIndex = process.argv.indexOf('--host')
+const host = hostArgIndex >= 0 ? (process.argv[hostArgIndex + 1] || '0.0.0.0') : (process.env.ARE_FRONTEND_HOST || '127.0.0.1')
+const port = Number(process.env.ARE_FRONTEND_PORT || 5173)
+server.listen(port, host, () => console.log(`Frontend: http://localhost:${port}`))

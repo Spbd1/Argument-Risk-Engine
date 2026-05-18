@@ -3,7 +3,13 @@ from __future__ import annotations
 from pathlib import Path
 
 from argument_risk_engine.taxonomy.loader import load_taxonomy_pack
-from argument_risk_engine.taxonomy.models import ActivationStatus, CanonicalCategory, TaxonomyEntry, TaxonomyPack, default_taxonomy_pack
+from argument_risk_engine.taxonomy.models import (
+    ActivationStatus,
+    CanonicalCategory,
+    TaxonomyEntry,
+    TaxonomyPack,
+    default_taxonomy_pack,
+)
 
 ROOT = Path(__file__).resolve().parents[3]
 PACKS_DIR = ROOT / "data/taxonomy/packs"

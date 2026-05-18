@@ -12,6 +12,10 @@ def run(app_path: str, host: str = '127.0.0.1', port: int = 8000, reload: bool =
         def log_message(self, *args):
             return
 
-    with socketserver.TCPServer((host, port), Handler) as httpd:
+    class ReusableTCPServer(socketserver.TCPServer):
+        allow_reuse_address = True
+        allow_reuse_port = True
+
+    with ReusableTCPServer((host, port), Handler) as httpd:
         print(f'Backend: http://{host}:{port}')
         httpd.serve_forever()

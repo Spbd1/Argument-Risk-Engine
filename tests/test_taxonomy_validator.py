@@ -1,5 +1,8 @@
 from argument_risk_engine.taxonomy.models import TaxonomyEntry, TaxonomyPack
-from argument_risk_engine.taxonomy.validator import validate_taxonomy_pack, validate_taxonomy_pack_detailed
+from argument_risk_engine.taxonomy.validator import (
+    validate_taxonomy_pack,
+    validate_taxonomy_pack_detailed,
+)
 
 
 def test_validator_detects_duplicate():
