@@ -1,0 +1,2653 @@
+{
+  "version": "0.2.0",
+  "name": "core_mvp",
+  "entries": [
+    {
+      "id": "straw_man_canonical",
+      "name": "Straw man",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Straw man: the parent pattern appears in its standard recognizable form. Parent definition: Misrepresenting an opponent's position to make it easier to refute.",
+      "long_definition": "Operational subtype under Straw man: the parent pattern appears in its standard recognizable form. Parent definition: Misrepresenting an opponent's position to make it easier to refute.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Straw man",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses straw man with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 2,
+      "metadata": {
+        "workbook_row_number": 2,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "weak_man_canonical",
+      "name": "Weak man",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Weak man: the parent pattern appears in its standard recognizable form. Parent definition: Targeting a weak version of a broader position rather than the strongest relevant version.",
+      "long_definition": "Operational subtype under Weak man: the parent pattern appears in its standard recognizable form. Parent definition: Targeting a weak version of a broader position rather than the strongest relevant version.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Weak man",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses weak man with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 3,
+      "metadata": {
+        "workbook_row_number": 3,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "ad_hominem_abusive_canonical",
+      "name": "Abusive ad hominem",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Abusive ad hominem: the parent pattern appears in its standard recognizable form. Parent definition: Rejecting a claim by attacking a person rather than the claim-level reasons.",
+      "long_definition": "Operational subtype under Abusive ad hominem: the parent pattern appears in its standard recognizable form. Parent definition: Rejecting a claim by attacking a person rather than the claim-level reasons.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Abusive ad hominem",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses abusive ad hominem with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 4,
+      "metadata": {
+        "workbook_row_number": 4,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "ad_hominem_circumstantial_canonical",
+      "name": "Circumstantial ad hominem",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Circumstantial ad hominem: the parent pattern appears in its standard recognizable form. Parent definition: Treating a speaker's circumstances as decisive against their claim without claim-level evidence.",
+      "long_definition": "Operational subtype under Circumstantial ad hominem: the parent pattern appears in its standard recognizable form. Parent definition: Treating a speaker's circumstances as decisive against their claim without claim-level evidence.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Circumstantial ad hominem",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses circumstantial ad hominem with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [
+        "cherry_picking",
+        "missing_counterevidence",
+        "evidence_grading"
+      ],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 5,
+      "metadata": {
+        "workbook_row_number": 5,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "tu_quoque_canonical",
+      "name": "Tu quoque",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Tu quoque: the parent pattern appears in its standard recognizable form. Parent definition: Deflecting criticism by alleging inconsistency in the critic rather than addressing the argument.",
+      "long_definition": "Operational subtype under Tu quoque: the parent pattern appears in its standard recognizable form. Parent definition: Deflecting criticism by alleging inconsistency in the critic rather than addressing the argument.",
+      "detection_level": "discourse",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Tu quoque",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses tu quoque with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 6,
+      "metadata": {
+        "workbook_row_number": 6,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "guilt_by_association_canonical",
+      "name": "Guilt by association",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Guilt by association: the parent pattern appears in its standard recognizable form. Parent definition: Rejecting a claim because its speaker is associated with a disliked person or group.",
+      "long_definition": "Operational subtype under Guilt by association: the parent pattern appears in its standard recognizable form. Parent definition: Rejecting a claim because its speaker is associated with a disliked person or group.",
+      "detection_level": "contextual",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Guilt by association",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses guilt by association with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 7,
+      "metadata": {
+        "workbook_row_number": 7,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "genetic_fallacy_canonical",
+      "name": "Genetic fallacy",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Genetic fallacy: the parent pattern appears in its standard recognizable form. Parent definition: Judging a claim solely by its origin rather than its current evidence or reasoning.",
+      "long_definition": "Operational subtype under Genetic fallacy: the parent pattern appears in its standard recognizable form. Parent definition: Judging a claim solely by its origin rather than its current evidence or reasoning.",
+      "detection_level": "contextual",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Genetic fallacy",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses genetic fallacy with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [
+        "cherry_picking",
+        "missing_counterevidence",
+        "evidence_grading"
+      ],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 8,
+      "metadata": {
+        "workbook_row_number": 8,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "appeal_to_authority_misuse_canonical",
+      "name": "Misused appeal to authority",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Misused appeal to authority: the parent pattern appears in its standard recognizable form. Parent definition: Using authority as a substitute for relevant evidence, especially outside the authority's domain.",
+      "long_definition": "Operational subtype under Misused appeal to authority: the parent pattern appears in its standard recognizable form. Parent definition: Using authority as a substitute for relevant evidence, especially outside the authority's domain.",
+      "detection_level": "contextual",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Misused appeal to authority",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses misused appeal to authority with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [
+        "authority_bias",
+        "appeal_to_authority_misuse",
+        "source_triangulation"
+      ],
+      "synonym_ids": [],
+      "source_refs": [
+        "walton_argumentation_schemes",
+        "https://www.cambridge.org/core/books/argumentation-schemes/1D013BFA2695C72B14134F2C38B17B85"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 9,
+      "metadata": {
+        "workbook_row_number": 9,
+        "source_family": "walton_argumentation_schemes",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "appeal_to_emotion_canonical",
+      "name": "Appeal to emotion",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Appeal to emotion: the parent pattern appears in its standard recognizable form. Parent definition: Using emotion as the main support for a conclusion without adequate reasons.",
+      "long_definition": "Operational subtype under Appeal to emotion: the parent pattern appears in its standard recognizable form. Parent definition: Using emotion as the main support for a conclusion without adequate reasons.",
+      "detection_level": "discourse",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Appeal to emotion",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses appeal to emotion with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 10,
+      "metadata": {
+        "workbook_row_number": 10,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "appeal_to_fear_canonical",
+      "name": "Appeal to fear",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Appeal to fear: the parent pattern appears in its standard recognizable form. Parent definition: Using fear or threat as decisive support for a claim or choice.",
+      "long_definition": "Operational subtype under Appeal to fear: the parent pattern appears in its standard recognizable form. Parent definition: Using fear or threat as decisive support for a claim or choice.",
+      "detection_level": "discourse",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Appeal to fear",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses appeal to fear with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 11,
+      "metadata": {
+        "workbook_row_number": 11,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "appeal_to_pity_canonical",
+      "name": "Appeal to pity",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Appeal to pity: the parent pattern appears in its standard recognizable form. Parent definition: Substituting pity or sympathy for relevant evidence.",
+      "long_definition": "Operational subtype under Appeal to pity: the parent pattern appears in its standard recognizable form. Parent definition: Substituting pity or sympathy for relevant evidence.",
+      "detection_level": "discourse",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Appeal to pity",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses appeal to pity with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [
+        "cherry_picking",
+        "missing_counterevidence",
+        "evidence_grading"
+      ],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 12,
+      "metadata": {
+        "workbook_row_number": 12,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "appeal_to_force_canonical",
+      "name": "Appeal to force",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Appeal to force: the parent pattern appears in its standard recognizable form. Parent definition: Relying on threat or coercion rather than reasons.",
+      "long_definition": "Operational subtype under Appeal to force: the parent pattern appears in its standard recognizable form. Parent definition: Relying on threat or coercion rather than reasons.",
+      "detection_level": "discourse",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Appeal to force",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses appeal to force with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 13,
+      "metadata": {
+        "workbook_row_number": 13,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "appeal_to_popularity_canonical",
+      "name": "Ad populum",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Ad populum: the parent pattern appears in its standard recognizable form. Parent definition: Treating popularity as sufficient proof of truth or correctness.",
+      "long_definition": "Operational subtype under Ad populum: the parent pattern appears in its standard recognizable form. Parent definition: Treating popularity as sufficient proof of truth or correctness.",
+      "detection_level": "contextual",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Ad populum",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses ad populum with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 14,
+      "metadata": {
+        "workbook_row_number": 14,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "false_dilemma_canonical",
+      "name": "False dilemma",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under False dilemma: the parent pattern appears in its standard recognizable form. Parent definition: Presenting limited options as exhaustive when relevant alternatives exist.",
+      "long_definition": "Operational subtype under False dilemma: the parent pattern appears in its standard recognizable form. Parent definition: Presenting limited options as exhaustive when relevant alternatives exist.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for False dilemma",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses false dilemma with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 15,
+      "metadata": {
+        "workbook_row_number": 15,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "false_equivalence_canonical",
+      "name": "False equivalence",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under False equivalence: the parent pattern appears in its standard recognizable form. Parent definition: Treating two cases as equivalent while ignoring relevant differences.",
+      "long_definition": "Operational subtype under False equivalence: the parent pattern appears in its standard recognizable form. Parent definition: Treating two cases as equivalent while ignoring relevant differences.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for False equivalence",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses false equivalence with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 16,
+      "metadata": {
+        "workbook_row_number": 16,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "slippery_slope_canonical",
+      "name": "Slippery slope",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Slippery slope: the parent pattern appears in its standard recognizable form. Parent definition: Asserting a chain of consequences without adequate causal support.",
+      "long_definition": "Operational subtype under Slippery slope: the parent pattern appears in its standard recognizable form. Parent definition: Asserting a chain of consequences without adequate causal support.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Slippery slope",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses slippery slope with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [
+        "post_hoc",
+        "cum_hoc",
+        "alternative_explanation_neglect"
+      ],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 17,
+      "metadata": {
+        "workbook_row_number": 17,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "hasty_generalization_canonical",
+      "name": "Hasty generalization",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Hasty generalization: the parent pattern appears in its standard recognizable form. Parent definition: Drawing a broad conclusion from insufficient or unrepresentative cases.",
+      "long_definition": "Operational subtype under Hasty generalization: the parent pattern appears in its standard recognizable form. Parent definition: Drawing a broad conclusion from insufficient or unrepresentative cases.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Hasty generalization",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses hasty generalization with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 18,
+      "metadata": {
+        "workbook_row_number": 18,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "accident_fallacy_canonical",
+      "name": "Accident",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Accident: the parent pattern appears in its standard recognizable form. Parent definition: Applying a general rule to an exceptional case without qualification.",
+      "long_definition": "Operational subtype under Accident: the parent pattern appears in its standard recognizable form. Parent definition: Applying a general rule to an exceptional case without qualification.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Accident",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses accident with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 19,
+      "metadata": {
+        "workbook_row_number": 19,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "converse_accident_canonical",
+      "name": "Converse accident",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Converse accident: the parent pattern appears in its standard recognizable form. Parent definition: Generalizing from an exceptional case to a broad rule.",
+      "long_definition": "Operational subtype under Converse accident: the parent pattern appears in its standard recognizable form. Parent definition: Generalizing from an exceptional case to a broad rule.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Converse accident",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses converse accident with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 20,
+      "metadata": {
+        "workbook_row_number": 20,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "composition_fallacy_canonical",
+      "name": "Composition",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Composition: the parent pattern appears in its standard recognizable form. Parent definition: Inferring that a whole has a property because its parts have it.",
+      "long_definition": "Operational subtype under Composition: the parent pattern appears in its standard recognizable form. Parent definition: Inferring that a whole has a property because its parts have it.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Composition",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses composition with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 21,
+      "metadata": {
+        "workbook_row_number": 21,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "division_fallacy_canonical",
+      "name": "Division",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Division: the parent pattern appears in its standard recognizable form. Parent definition: Inferring that parts have a property because the whole has it.",
+      "long_definition": "Operational subtype under Division: the parent pattern appears in its standard recognizable form. Parent definition: Inferring that parts have a property because the whole has it.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Division",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses division with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 22,
+      "metadata": {
+        "workbook_row_number": 22,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "equivocation_canonical",
+      "name": "Equivocation",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Equivocation: the parent pattern appears in its standard recognizable form. Parent definition: Using a key term in different senses within the same argument.",
+      "long_definition": "Operational subtype under Equivocation: the parent pattern appears in its standard recognizable form. Parent definition: Using a key term in different senses within the same argument.",
+      "detection_level": "lexical",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Equivocation",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses equivocation with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 23,
+      "metadata": {
+        "workbook_row_number": 23,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "amphiboly_canonical",
+      "name": "Amphiboly",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Amphiboly: the parent pattern appears in its standard recognizable form. Parent definition: Relying on syntactic ambiguity to support a conclusion.",
+      "long_definition": "Operational subtype under Amphiboly: the parent pattern appears in its standard recognizable form. Parent definition: Relying on syntactic ambiguity to support a conclusion.",
+      "detection_level": "lexical",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Amphiboly",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses amphiboly with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 24,
+      "metadata": {
+        "workbook_row_number": 24,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "begging_the_question_canonical",
+      "name": "Begging the question",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Begging the question: the parent pattern appears in its standard recognizable form. Parent definition: Assuming what the argument is meant to prove.",
+      "long_definition": "Operational subtype under Begging the question: the parent pattern appears in its standard recognizable form. Parent definition: Assuming what the argument is meant to prove.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Begging the question",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses begging the question with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 25,
+      "metadata": {
+        "workbook_row_number": 25,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "circular_reasoning_canonical",
+      "name": "Circular reasoning",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Circular reasoning: the parent pattern appears in its standard recognizable form. Parent definition: Using the conclusion, directly or indirectly, as support for itself.",
+      "long_definition": "Operational subtype under Circular reasoning: the parent pattern appears in its standard recognizable form. Parent definition: Using the conclusion, directly or indirectly, as support for itself.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Circular reasoning",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses circular reasoning with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 26,
+      "metadata": {
+        "workbook_row_number": 26,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "loaded_question_canonical",
+      "name": "Loaded question",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Loaded question: the parent pattern appears in its standard recognizable form. Parent definition: Asking a question that embeds a disputed presupposition.",
+      "long_definition": "Operational subtype under Loaded question: the parent pattern appears in its standard recognizable form. Parent definition: Asking a question that embeds a disputed presupposition.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Loaded question",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses loaded question with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 27,
+      "metadata": {
+        "workbook_row_number": 27,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "red_herring_canonical",
+      "name": "Red herring",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Red herring: the parent pattern appears in its standard recognizable form. Parent definition: Introducing irrelevant material that distracts from the issue.",
+      "long_definition": "Operational subtype under Red herring: the parent pattern appears in its standard recognizable form. Parent definition: Introducing irrelevant material that distracts from the issue.",
+      "detection_level": "discourse",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Red herring",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses red herring with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 28,
+      "metadata": {
+        "workbook_row_number": 28,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "ignoratio_elenchi_canonical",
+      "name": "Irrelevant conclusion",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Irrelevant conclusion: the parent pattern appears in its standard recognizable form. Parent definition: Offering support for a conclusion different from the one at issue.",
+      "long_definition": "Operational subtype under Irrelevant conclusion: the parent pattern appears in its standard recognizable form. Parent definition: Offering support for a conclusion different from the one at issue.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Irrelevant conclusion",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses irrelevant conclusion with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 29,
+      "metadata": {
+        "workbook_row_number": 29,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "moving_goalposts_canonical",
+      "name": "Moving the goalposts",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Moving the goalposts: the parent pattern appears in its standard recognizable form. Parent definition: Changing acceptance criteria after evidence has been provided.",
+      "long_definition": "Operational subtype under Moving the goalposts: the parent pattern appears in its standard recognizable form. Parent definition: Changing acceptance criteria after evidence has been provided.",
+      "detection_level": "discourse",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Moving the goalposts",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses moving the goalposts with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [
+        "cherry_picking",
+        "missing_counterevidence",
+        "evidence_grading"
+      ],
+      "synonym_ids": [],
+      "source_refs": [
+        "pragmadialectics",
+        "https://doi.org/10.1017/CBO9780511616389"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 30,
+      "metadata": {
+        "workbook_row_number": 30,
+        "source_family": "pragmadialectics",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "no_true_scotsman_canonical",
+      "name": "No true Scotsman",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under No true Scotsman: the parent pattern appears in its standard recognizable form. Parent definition: Protecting a generalization by redefining membership ad hoc.",
+      "long_definition": "Operational subtype under No true Scotsman: the parent pattern appears in its standard recognizable form. Parent definition: Protecting a generalization by redefining membership ad hoc.",
+      "detection_level": "discourse",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for No true Scotsman",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses no true scotsman with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 31,
+      "metadata": {
+        "workbook_row_number": 31,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "special_pleading_canonical",
+      "name": "Special pleading",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Special pleading: the parent pattern appears in its standard recognizable form. Parent definition: Applying standards inconsistently without relevant justification.",
+      "long_definition": "Operational subtype under Special pleading: the parent pattern appears in its standard recognizable form. Parent definition: Applying standards inconsistently without relevant justification.",
+      "detection_level": "discourse",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Special pleading",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses special pleading with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 32,
+      "metadata": {
+        "workbook_row_number": 32,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "burden_of_proof_shift_canonical",
+      "name": "Burden-of-proof shift",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Burden-of-proof shift: the parent pattern appears in its standard recognizable form. Parent definition: Demanding disproof instead of supporting one's own claim.",
+      "long_definition": "Operational subtype under Burden-of-proof shift: the parent pattern appears in its standard recognizable form. Parent definition: Demanding disproof instead of supporting one's own claim.",
+      "detection_level": "discourse",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Burden-of-proof shift",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses burden-of-proof shift with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "pragmadialectics",
+        "https://doi.org/10.1017/CBO9780511616389"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 33,
+      "metadata": {
+        "workbook_row_number": 33,
+        "source_family": "pragmadialectics",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "appeal_to_ignorance_canonical",
+      "name": "Appeal to ignorance",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Appeal to ignorance: the parent pattern appears in its standard recognizable form. Parent definition: Treating lack of disproof as proof or lack of proof as disproof.",
+      "long_definition": "Operational subtype under Appeal to ignorance: the parent pattern appears in its standard recognizable form. Parent definition: Treating lack of disproof as proof or lack of proof as disproof.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Appeal to ignorance",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses appeal to ignorance with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 34,
+      "metadata": {
+        "workbook_row_number": 34,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "post_hoc_canonical",
+      "name": "Post hoc ergo propter hoc",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Post hoc ergo propter hoc: the parent pattern appears in its standard recognizable form. Parent definition: Inferring causation from temporal sequence alone.",
+      "long_definition": "Operational subtype under Post hoc ergo propter hoc: the parent pattern appears in its standard recognizable form. Parent definition: Inferring causation from temporal sequence alone.",
+      "detection_level": "contextual",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Post hoc ergo propter hoc",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses post hoc ergo propter hoc with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 35,
+      "metadata": {
+        "workbook_row_number": 35,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "cum_hoc_canonical",
+      "name": "Cum hoc ergo propter hoc",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Cum hoc ergo propter hoc: the parent pattern appears in its standard recognizable form. Parent definition: Inferring causation from co-occurrence alone.",
+      "long_definition": "Operational subtype under Cum hoc ergo propter hoc: the parent pattern appears in its standard recognizable form. Parent definition: Inferring causation from co-occurrence alone.",
+      "detection_level": "contextual",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Cum hoc ergo propter hoc",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses cum hoc ergo propter hoc with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 36,
+      "metadata": {
+        "workbook_row_number": 36,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "non_sequitur_canonical",
+      "name": "Non sequitur",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Non sequitur: the parent pattern appears in its standard recognizable form. Parent definition: Drawing a conclusion that does not follow from the stated reasons.",
+      "long_definition": "Operational subtype under Non sequitur: the parent pattern appears in its standard recognizable form. Parent definition: Drawing a conclusion that does not follow from the stated reasons.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Non sequitur",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses non sequitur with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 37,
+      "metadata": {
+        "workbook_row_number": 37,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "affirming_consequent_canonical",
+      "name": "Affirming the consequent",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Affirming the consequent: the parent pattern appears in its standard recognizable form. Parent definition: Inferring a sufficient condition from the consequent in a conditional.",
+      "long_definition": "Operational subtype under Affirming the consequent: the parent pattern appears in its standard recognizable form. Parent definition: Inferring a sufficient condition from the consequent in a conditional.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Affirming the consequent",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses affirming the consequent with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 38,
+      "metadata": {
+        "workbook_row_number": 38,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "denying_antecedent_canonical",
+      "name": "Denying the antecedent",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Denying the antecedent: the parent pattern appears in its standard recognizable form. Parent definition: Inferring the negation of the consequent from the negation of the antecedent.",
+      "long_definition": "Operational subtype under Denying the antecedent: the parent pattern appears in its standard recognizable form. Parent definition: Inferring the negation of the consequent from the negation of the antecedent.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Denying the antecedent",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses denying the antecedent with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 39,
+      "metadata": {
+        "workbook_row_number": 39,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "faulty_analogy_canonical",
+      "name": "Faulty analogy",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Faulty analogy: the parent pattern appears in its standard recognizable form. Parent definition: Using an analogy while ignoring relevant disanalogies.",
+      "long_definition": "Operational subtype under Faulty analogy: the parent pattern appears in its standard recognizable form. Parent definition: Using an analogy while ignoring relevant disanalogies.",
+      "detection_level": "structural",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Faulty analogy",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses faulty analogy with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "walton_argumentation_schemes",
+        "https://www.cambridge.org/core/books/argumentation-schemes/1D013BFA2695C72B14134F2C38B17B85"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": false,
+      "requires_human_judgment": false,
+      "false_positive_sensitivity": "medium",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 40,
+      "metadata": {
+        "workbook_row_number": 40,
+        "source_family": "walton_argumentation_schemes",
+        "codex_import_action": "import_as_active"
+      }
+    },
+    {
+      "id": "appeal_to_nature_canonical",
+      "name": "Appeal to nature",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Appeal to nature: the parent pattern appears in its standard recognizable form. Parent definition: Treating naturalness as sufficient proof of goodness or correctness.",
+      "long_definition": "Operational subtype under Appeal to nature: the parent pattern appears in its standard recognizable form. Parent definition: Treating naturalness as sufficient proof of goodness or correctness.",
+      "detection_level": "contextual",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Appeal to nature",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses appeal to nature with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 41,
+      "metadata": {
+        "workbook_row_number": 41,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "appeal_to_tradition_canonical",
+      "name": "Appeal to tradition",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Appeal to tradition: the parent pattern appears in its standard recognizable form. Parent definition: Treating long-standing practice as sufficient proof of correctness.",
+      "long_definition": "Operational subtype under Appeal to tradition: the parent pattern appears in its standard recognizable form. Parent definition: Treating long-standing practice as sufficient proof of correctness.",
+      "detection_level": "contextual",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Appeal to tradition",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses appeal to tradition with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 42,
+      "metadata": {
+        "workbook_row_number": 42,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "appeal_to_novelty_canonical",
+      "name": "Appeal to novelty",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Appeal to novelty: the parent pattern appears in its standard recognizable form. Parent definition: Treating newness as sufficient proof of superiority.",
+      "long_definition": "Operational subtype under Appeal to novelty: the parent pattern appears in its standard recognizable form. Parent definition: Treating newness as sufficient proof of superiority.",
+      "detection_level": "contextual",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Appeal to novelty",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses appeal to novelty with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 43,
+      "metadata": {
+        "workbook_row_number": 43,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "nirvana_fallacy_canonical",
+      "name": "Nirvana fallacy",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Nirvana fallacy: the parent pattern appears in its standard recognizable form. Parent definition: Rejecting realistic options because they are not perfect.",
+      "long_definition": "Operational subtype under Nirvana fallacy: the parent pattern appears in its standard recognizable form. Parent definition: Rejecting realistic options because they are not perfect.",
+      "detection_level": "contextual",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Nirvana fallacy",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses nirvana fallacy with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 44,
+      "metadata": {
+        "workbook_row_number": 44,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "middle_ground_fallacy_canonical",
+      "name": "Middle-ground fallacy",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Middle-ground fallacy: the parent pattern appears in its standard recognizable form. Parent definition: Assuming the middle position is correct merely because it is intermediate.",
+      "long_definition": "Operational subtype under Middle-ground fallacy: the parent pattern appears in its standard recognizable form. Parent definition: Assuming the middle position is correct merely because it is intermediate.",
+      "detection_level": "contextual",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Middle-ground fallacy",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses middle-ground fallacy with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 45,
+      "metadata": {
+        "workbook_row_number": 45,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "relative_privation_canonical",
+      "name": "Relative privation",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Relative privation: the parent pattern appears in its standard recognizable form. Parent definition: Dismissing a problem because worse problems exist.",
+      "long_definition": "Operational subtype under Relative privation: the parent pattern appears in its standard recognizable form. Parent definition: Dismissing a problem because worse problems exist.",
+      "detection_level": "discourse",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Relative privation",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses relative privation with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "sep_fallacies",
+        "https://plato.stanford.edu/entries/fallacies/"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 46,
+      "metadata": {
+        "workbook_row_number": 46,
+        "source_family": "sep_fallacies",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    },
+    {
+      "id": "whataboutism_canonical",
+      "name": "Whataboutism",
+      "pack": "core_mvp",
+      "canonical_category": "fallacy",
+      "academic_status": "canonical",
+      "academic_consensus": "high",
+      "short_definition": "Operational subtype under Whataboutism: the parent pattern appears in its standard recognizable form. Parent definition: Deflecting criticism by pointing to another issue.",
+      "long_definition": "Operational subtype under Whataboutism: the parent pattern appears in its standard recognizable form. Parent definition: Deflecting criticism by pointing to another issue.",
+      "detection_level": "discourse",
+      "signals": [
+        "Look for: explicit claim-level evidence",
+        "parent-family cues for Whataboutism",
+        "variant cue: the parent pattern appears in its standard recognizable form",
+        "avoid author-level inference."
+      ],
+      "trigger_patterns": [],
+      "minimum_evidence_requirement": "Exact evidence span in text plus claim-level reasoning link; for contextual/discourse entries, require surrounding context.",
+      "exclusion_criteria": [],
+      "common_false_positives": [
+        "Do not label merely because topic is controversial, emotional, or wrong. Do not judge intent or personality. Require textual evidence and consider healthy-reasoning cues."
+      ],
+      "positive_examples": [
+        "Stub: A claim relies on the parent pattern appears in its standard recognizable form to support a conclusion without adequate qualification."
+      ],
+      "negative_examples": [
+        "Stub: A claim discusses whataboutism with caveats, balanced evidence, or no argumentative use of the pattern."
+      ],
+      "severity_guidance": [
+        "Mild or ambiguous cue",
+        "do not classify without clear evidence span.",
+        "Clear claim-level pattern with some argumentative impact.",
+        "Strong pattern central to the conclusion and likely to materially distort reasoning."
+      ],
+      "related_risks": [],
+      "synonym_ids": [],
+      "source_refs": [
+        "pragmadialectics",
+        "https://doi.org/10.1017/CBO9780511616389"
+      ],
+      "enabled_for_mvp": true,
+      "enabled_for_retrieval": true,
+      "enabled_for_classification": true,
+      "requires_context": true,
+      "requires_human_judgment": true,
+      "false_positive_sensitivity": "high",
+      "activation_status": "active",
+      "healthy_suppressor": false,
+      "model_assisted_allowed": true,
+      "notes": "Review before enabling. This workbook is a living taxonomy scaffold, not a validated scientific benchmark.",
+      "row_number": 47,
+      "metadata": {
+        "workbook_row_number": 47,
+        "source_family": "pragmadialectics",
+        "codex_import_action": "import_but_human_review_required"
+      }
+    }
+  ],
+  "metadata": {}
+}

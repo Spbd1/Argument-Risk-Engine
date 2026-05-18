@@ -1,0 +1,169 @@
+{
+  "ok": true,
+  "entry_count": 1100,
+  "active_classification_count": 46,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "high_fp_active",
+      "message": "tu_quoque_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "tu_quoque_canonical",
+      "row_number": 6
+    },
+    {
+      "code": "high_fp_active",
+      "message": "guilt_by_association_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "guilt_by_association_canonical",
+      "row_number": 7
+    },
+    {
+      "code": "high_fp_active",
+      "message": "genetic_fallacy_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "genetic_fallacy_canonical",
+      "row_number": 8
+    },
+    {
+      "code": "high_fp_active",
+      "message": "appeal_to_authority_misuse_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "appeal_to_authority_misuse_canonical",
+      "row_number": 9
+    },
+    {
+      "code": "high_fp_active",
+      "message": "appeal_to_emotion_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "appeal_to_emotion_canonical",
+      "row_number": 10
+    },
+    {
+      "code": "high_fp_active",
+      "message": "appeal_to_fear_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "appeal_to_fear_canonical",
+      "row_number": 11
+    },
+    {
+      "code": "high_fp_active",
+      "message": "appeal_to_pity_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "appeal_to_pity_canonical",
+      "row_number": 12
+    },
+    {
+      "code": "high_fp_active",
+      "message": "appeal_to_force_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "appeal_to_force_canonical",
+      "row_number": 13
+    },
+    {
+      "code": "high_fp_active",
+      "message": "appeal_to_popularity_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "appeal_to_popularity_canonical",
+      "row_number": 14
+    },
+    {
+      "code": "high_fp_active",
+      "message": "red_herring_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "red_herring_canonical",
+      "row_number": 28
+    },
+    {
+      "code": "high_fp_active",
+      "message": "moving_goalposts_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "moving_goalposts_canonical",
+      "row_number": 30
+    },
+    {
+      "code": "high_fp_active",
+      "message": "no_true_scotsman_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "no_true_scotsman_canonical",
+      "row_number": 31
+    },
+    {
+      "code": "high_fp_active",
+      "message": "special_pleading_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "special_pleading_canonical",
+      "row_number": 32
+    },
+    {
+      "code": "high_fp_active",
+      "message": "burden_of_proof_shift_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "burden_of_proof_shift_canonical",
+      "row_number": 33
+    },
+    {
+      "code": "high_fp_active",
+      "message": "post_hoc_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "post_hoc_canonical",
+      "row_number": 35
+    },
+    {
+      "code": "high_fp_active",
+      "message": "cum_hoc_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "cum_hoc_canonical",
+      "row_number": 36
+    },
+    {
+      "code": "high_fp_active",
+      "message": "appeal_to_nature_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "appeal_to_nature_canonical",
+      "row_number": 41
+    },
+    {
+      "code": "high_fp_active",
+      "message": "appeal_to_tradition_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "appeal_to_tradition_canonical",
+      "row_number": 42
+    },
+    {
+      "code": "high_fp_active",
+      "message": "appeal_to_novelty_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "appeal_to_novelty_canonical",
+      "row_number": 43
+    },
+    {
+      "code": "high_fp_active",
+      "message": "nirvana_fallacy_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "nirvana_fallacy_canonical",
+      "row_number": 44
+    },
+    {
+      "code": "high_fp_active",
+      "message": "middle_ground_fallacy_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "middle_ground_fallacy_canonical",
+      "row_number": 45
+    },
+    {
+      "code": "high_fp_active",
+      "message": "relative_privation_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "relative_privation_canonical",
+      "row_number": 46
+    },
+    {
+      "code": "high_fp_active",
+      "message": "whataboutism_canonical has high false-positive sensitivity and should normally remain review_required",
+      "severity": "warning",
+      "entry_id": "whataboutism_canonical",
+      "row_number": 47
+    }
+  ]
+}

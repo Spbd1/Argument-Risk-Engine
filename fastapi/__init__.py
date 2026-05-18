@@ -39,3 +39,12 @@ class FastAPI:
             self.routes[('GET', path)] = fn
             return fn
         return deco
+
+
+class UploadFile:
+    def __init__(self, filename='', file=None):
+        self.filename = filename
+        self.file = file
+
+def File(default=None, **kwargs):
+    return default

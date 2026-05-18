@@ -1,1 +1,181 @@
-sources: []
+{
+  "version": "0.2.0",
+  "items": [
+    {
+      "source_id": "sep_fallacies",
+      "author_or_editor": "Hansen / Groarke",
+      "year": "updated",
+      "title": "Fallacies, Stanford Encyclopedia of Philosophy",
+      "source_type": "encyclopedia",
+      "domain": "informal_logic",
+      "url": "https://plato.stanford.edu/entries/fallacies/",
+      "confidence": "high",
+      "how_to_use": "Use for context-sensitive fallacy analysis and warnings against naive labeling."
+    },
+    {
+      "source_id": "sep_informal_logic",
+      "author_or_editor": "Groarke",
+      "year": "updated",
+      "title": "Informal Logic, Stanford Encyclopedia of Philosophy",
+      "source_type": "encyclopedia",
+      "domain": "informal_logic",
+      "url": "https://plato.stanford.edu/entries/logic-informal/",
+      "confidence": "high",
+      "how_to_use": "Use for ordinary-language argument assessment."
+    },
+    {
+      "source_id": "hamblin_fallacies",
+      "author_or_editor": "C. L. Hamblin",
+      "year": "1970",
+      "title": "Fallacies",
+      "source_type": "book",
+      "domain": "informal_logic",
+      "url": "https://archive.org/details/fallacies0000hamb",
+      "confidence": "high",
+      "how_to_use": "Use as methodological caution; traditional lists are not simple detectors."
+    },
+    {
+      "source_id": "walton_argumentation_schemes",
+      "author_or_editor": "Walton, Reed, Macagno",
+      "year": "2008",
+      "title": "Argumentation Schemes",
+      "source_type": "book",
+      "domain": "argumentation_theory",
+      "url": "https://www.cambridge.org/core/books/argumentation-schemes/1D013BFA2695C72B14134F2C38B17B85",
+      "confidence": "high",
+      "how_to_use": "Use for defeasible schemes and critical questions."
+    },
+    {
+      "source_id": "toulmin_uses_argument",
+      "author_or_editor": "Stephen Toulmin",
+      "year": "1958",
+      "title": "The Uses of Argument",
+      "source_type": "book",
+      "domain": "argumentation_theory",
+      "url": "https://doi.org/10.1017/CBO9780511840005",
+      "confidence": "high",
+      "how_to_use": "Use for claim-data-warrant-backing-qualifier-rebuttal model."
+    },
+    {
+      "source_id": "eemeren_grootendorst_systematic",
+      "author_or_editor": "van Eemeren & Grootendorst",
+      "year": "2004",
+      "title": "A Systematic Theory of Argumentation",
+      "source_type": "book",
+      "domain": "pragma_dialectics",
+      "url": "https://doi.org/10.1017/CBO9780511616389",
+      "confidence": "high",
+      "how_to_use": "Use for dialogue obligations and discourse-level derailment."
+    },
+    {
+      "source_id": "kahneman_tversky_1974",
+      "author_or_editor": "Tversky & Kahneman",
+      "year": "1974",
+      "title": "Judgment under Uncertainty: Heuristics and Biases",
+      "source_type": "article",
+      "domain": "cognitive_psychology",
+      "url": "https://doi.org/10.1126/science.185.4157.1124",
+      "confidence": "high",
+      "how_to_use": "Use for representativeness, availability, anchoring."
+    },
+    {
+      "source_id": "kahneman_tversky_1979",
+      "author_or_editor": "Kahneman & Tversky",
+      "year": "1979",
+      "title": "Prospect Theory: An Analysis of Decision under Risk",
+      "source_type": "article",
+      "domain": "behavioral_economics",
+      "url": "https://doi.org/10.2307/1914185",
+      "confidence": "high",
+      "how_to_use": "Use for reference dependence and loss aversion framing."
+    },
+    {
+      "source_id": "tversky_kahneman_1981",
+      "author_or_editor": "Tversky & Kahneman",
+      "year": "1981",
+      "title": "The Framing of Decisions and the Psychology of Choice",
+      "source_type": "article",
+      "domain": "behavioral_economics",
+      "url": "https://doi.org/10.1126/science.7455683",
+      "confidence": "high",
+      "how_to_use": "Use for framing effects."
+    },
+    {
+      "source_id": "nickerson_1998",
+      "author_or_editor": "Nickerson",
+      "year": "1998",
+      "title": "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises",
+      "source_type": "article",
+      "domain": "cognitive_psychology",
+      "url": "https://doi.org/10.1037/1089-2680.2.2.175",
+      "confidence": "high",
+      "how_to_use": "Use for confirmation bias; avoid overdiagnosis."
+    },
+    {
+      "source_id": "cialdini_influence",
+      "author_or_editor": "Cialdini",
+      "year": "2001+",
+      "title": "Influence: Science and Practice / Influence: The Psychology of Persuasion",
+      "source_type": "book",
+      "domain": "social_psychology",
+      "url": "https://www.pearson.com/en-us/subject-catalog/p/influence-science-and-practice/P200000003004",
+      "confidence": "medium",
+      "how_to_use": "Use for social influence patterns; not moral judgment."
+    },
+    {
+      "source_id": "grice_logic_conversation",
+      "author_or_editor": "Grice",
+      "year": "1975",
+      "title": "Logic and Conversation",
+      "source_type": "chapter",
+      "domain": "pragmatics",
+      "url": "https://doi.org/10.1163/9789004368811_003",
+      "confidence": "high",
+      "how_to_use": "Use for conversational maxims and pragmatic signals."
+    },
+    {
+      "source_id": "gilovich_heuristics_biases",
+      "author_or_editor": "Gilovich, Griffin, Kahneman",
+      "year": "2002",
+      "title": "Heuristics and Biases",
+      "source_type": "edited_book",
+      "domain": "cognitive_psychology",
+      "url": "https://www.cambridge.org/core/books/heuristics-and-biases/3C30D3B05D2F190C3B8BE5E2531EFD24",
+      "confidence": "high",
+      "how_to_use": "Use as consolidated academic source for bias families."
+    },
+    {
+      "source_id": "thaler_sunstein_nudge",
+      "author_or_editor": "Thaler & Sunstein",
+      "year": "2008",
+      "title": "Nudge",
+      "source_type": "book",
+      "domain": "behavioral_economics",
+      "url": "https://yalebooks.yale.edu/book/9780300146813/nudge/",
+      "confidence": "medium",
+      "how_to_use": "Use for choice architecture and defaults; mark applied/policy framing."
+    },
+    {
+      "source_id": "pearl_causality",
+      "author_or_editor": "Judea Pearl",
+      "year": "2009",
+      "title": "Causality",
+      "source_type": "book",
+      "domain": "causal_inference",
+      "url": "https://www.cambridge.org/core/books/causality/2B00067E6BC60CB2B6A3B23B39F6F6D7",
+      "confidence": "high",
+      "how_to_use": "Use for causal reasoning concepts; avoid simplifying causal inference."
+    },
+    {
+      "source_id": "gelman_statistics",
+      "author_or_editor": "Gelman et al.",
+      "year": "multiple",
+      "title": "Regression and Other Stories / Bayesian Data Analysis",
+      "source_type": "book",
+      "domain": "statistics",
+      "url": "https://avehtari.github.io/ROS-Examples/",
+      "confidence": "medium",
+      "how_to_use": "Use for statistical reasoning examples and uncertainty communication."
+    }
+  ]
+}

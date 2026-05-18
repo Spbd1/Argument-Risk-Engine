@@ -3,12 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 import yaml
-from argument_risk_engine.taxonomy.models import (
-    RiskSeverity,
-    TaxonomyEntry,
-    TaxonomyPack,
-    default_taxonomy_pack,
-)
+from argument_risk_engine.taxonomy.models import TaxonomyEntry, TaxonomyPack, default_taxonomy_pack
 
 
 def load_taxonomy_pack(path: Path | str | None = None) -> TaxonomyPack:
@@ -20,18 +15,12 @@ def load_taxonomy_pack(path: Path | str | None = None) -> TaxonomyPack:
     data = yaml.safe_load(file_path.read_text())
     if not data:
         return default_taxonomy_pack()
-    entries = []
-    for entry in data.get("entries", []):
-        if isinstance(entry, TaxonomyEntry):
-            entries.append(entry)
-        else:
-            item = dict(entry)
-            item["severity"] = RiskSeverity(str(item.get("severity", "low")))
-            entries.append(TaxonomyEntry(**item))
+    entries = [entry if isinstance(entry, TaxonomyEntry) else TaxonomyEntry(**dict(entry)) for entry in data.get("entries", [])]
     return TaxonomyPack(
         version=str(data.get("version", "0.1.0")),
         name=str(data.get("name", "default")),
         entries=entries,
+        metadata=dict(data.get("metadata", {})),
     )
 
 

@@ -9,3 +9,11 @@ frontend/node_modules/
 frontend/dist/
 *.egg-info/
 .DS_Store
+
+data/taxonomy/imports/*.xlsx
+data/taxonomy/exports/*.xlsx
+data/reports/*.xlsx
+data/reports/*.html
+data/reports/*.pdf
+*.xls
+*.xlsx
