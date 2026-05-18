@@ -1,0 +1,61 @@
+{
+  "version": "0.1.0",
+  "name": "starter-pack",
+  "entries": [
+    {
+      "id": "overgeneralization",
+      "name": "Overgeneralization",
+      "description": "A broad claim that applies a judgement to a group or situation without sufficient qualification.",
+      "severity": "medium",
+      "keywords": [
+        "always",
+        "never",
+        "everyone",
+        "all",
+        "none"
+      ],
+      "examples": [
+        "Everyone in that group is dishonest."
+      ],
+      "mitigation": "Ask for scope, counterexamples, and supporting evidence.",
+      "active": true,
+      "metadata": {}
+    },
+    {
+      "id": "unsupported_causal_claim",
+      "name": "Unsupported causal claim",
+      "description": "A statement presents causation without evidence in the provided text.",
+      "severity": "medium",
+      "keywords": [
+        "caused",
+        "because of",
+        "leads to",
+        "responsible for"
+      ],
+      "examples": [
+        "The policy caused every later problem."
+      ],
+      "mitigation": "Request causal evidence and consider alternative explanations.",
+      "active": true,
+      "metadata": {}
+    },
+    {
+      "id": "dehumanizing_language",
+      "name": "Dehumanizing language",
+      "description": "Language that depicts people as less than human or as pests, disease, or objects.",
+      "severity": "high",
+      "keywords": [
+        "vermin",
+        "parasites",
+        "infestation",
+        "animals"
+      ],
+      "examples": [
+        "They are vermin."
+      ],
+      "mitigation": "Escalate for careful human review and contextual assessment.",
+      "active": true,
+      "metadata": {}
+    }
+  ]
+}

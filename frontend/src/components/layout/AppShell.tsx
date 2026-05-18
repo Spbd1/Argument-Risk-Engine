@@ -1,0 +1,1 @@
+import { Header } from './Header'; import { Sidebar } from './Sidebar'; export function AppShell({ children }: { children: React.ReactNode }) { return <div className="shell"><Sidebar /><main><Header />{children}</main></div> }
