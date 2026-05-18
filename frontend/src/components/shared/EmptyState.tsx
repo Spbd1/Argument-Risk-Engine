@@ -1,1 +1,1 @@
-export function EmptyState({ message }: { message: string }) { return <p className="muted">{message}</p> }
+export function EmptyState({ title = 'No data yet', message }: { title?: string; message: string }) { return <div className="state state-empty"><strong>{title}</strong><p>{message}</p></div> }

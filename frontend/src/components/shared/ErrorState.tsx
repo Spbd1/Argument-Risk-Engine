@@ -1,1 +1,1 @@
-export function ErrorState({ message }: { message: string }) { return <p className="error">{message}</p> }
+export function ErrorState({ message, title = 'Something went wrong' }: { message: string; title?: string }) { return <div className="state state-error" role="alert"><strong>{title}</strong><p>{message}</p></div> }
