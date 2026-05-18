@@ -22,6 +22,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(routes_analysis.router)
 app.include_router(routes_analysis.router, prefix="/api")
 app.include_router(routes_taxonomy.router, prefix="/api")
 app.include_router(routes_taxonomy_workbench.router, prefix="/api")
